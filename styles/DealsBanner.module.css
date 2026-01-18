@@ -1,0 +1,207 @@
+.deals {
+  padding: 48px 0;
+}
+
+.banner {
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  padding: 24px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bannerContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ticketImage {
+  display: none;
+  padding-right: -10px;
+  margin-left: -10px;
+}
+
+.ticket {
+  width: auto;
+  height: auto;
+  transform: rotate(-5deg);
+}
+
+.centerContent {
+  text-align: left;
+  margin-right: 10;
+}
+
+.fireButton {
+  padding: 8px 16px;
+  background-color: var(--cyan-color);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  transition: background-color 0.3s;
+}
+
+.fireButton:hover {
+  background-color: #5ac9c9;
+  transition: all 0.3s;
+  transform: scale(1.05);
+}
+
+.fireIcon {
+  font-size: 1.25rem;
+}
+
+.hawksCenter{
+  display:block;
+  width: 200;
+  height: 200;
+  margin-left: 10;
+}
+
+.bannerTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+}
+
+.bannerPara {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.operationalBy {
+  text-align: center;
+}
+
+.operationalTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.partnerLogos {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partnerLogo {
+  width: 80px;
+  height: 50px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.partnerLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hawksText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-0deg);
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.15);
+  z-index: 0;
+  display: none;
+  opacity: 20%;
+}
+
+.planeIcon {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  font-size: 80px;
+  opacity: 0.2;
+  transform: rotate(-30deg);
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .banner {
+    padding: 32px 24px;
+  }
+
+  .bannerTitle {
+    font-size: 1.75rem;
+  }
+
+  .bannerPara {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .deals {
+    padding: 64px 0;
+  }
+
+  .banner {
+    padding: 48px;
+  }
+
+  .bannerContent {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .ticketImage {
+    display: block;
+  }
+
+  .centerContent {
+    text-align: center;
+  }
+
+  .operationalBy {
+    text-align: right;
+  }
+
+  .partnerLogos {
+    justify-content: flex-end;
+  }
+
+  .bannerTitle {
+    font-size: 2rem;
+  }
+
+  .bannerPara {
+    font-size: 1.5rem;
+  }
+
+  .hawksText {
+    display: block;
+    font-size: 5rem;
+  }
+
+  .planeIcon {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bannerTitle {
+    font-size: 2.5rem;
+  }
+
+  .hawksText {
+    font-size: 6rem;
+  }
+}
