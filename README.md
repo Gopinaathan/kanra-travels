@@ -1,4 +1,4 @@
-# Kanra Travel - Travel Website
+# Kanra Travels - Travel Website
 
 A modern, fully responsive travel website built with Next.js, React, and TypeScript. This project showcases travel destinations, weather information, deals, testimonials, and provides an engaging user experience across all devices.
 
@@ -7,7 +7,7 @@ A modern, fully responsive travel website built with Next.js, React, and TypeScr
 1. **Clone the repository** (or navigate to the project directory):
 ```bash
 git clone <repository-url>
-cd kanra-travel
+cd kanra-travels
 ```
 
 2. **Install dependencies**:
