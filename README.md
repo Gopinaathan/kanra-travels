@@ -21,7 +21,7 @@ The implementation follows clean component-based architecture and best frontend 
 
 1. **Clone the repository** 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Gopinaathan/kanra-travels.git
 cd kanra-travels
 ```
 
@@ -58,7 +58,11 @@ http://localhost:3000
 The project uses images from:
 - **Unsplash** (`images.unsplash.com`)
 - **Pravatar** (`i.pravatar.cc`)
-- **Pexels** (`images.pexels.com`)
+- **Pexels** (`images.pexels.com`
+
+## Live Demo
+- **Deployed Application (Netlify):**
+```https://kanra-travels.netlify.app```
 
 
 
