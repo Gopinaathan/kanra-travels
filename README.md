@@ -1,26 +1,44 @@
-# Kanra Travels - Travel Website
+# Kanra Travel Landing Page – Frontend Practical Task
 
-A modern, fully responsive travel website built with Next.js, React, and TypeScript. This project showcases travel destinations, weather information, deals, testimonials, and provides an engaging user experience across all devices.
+## Project Overview
+
+This project is a fully responsive travel landing page developed as part of a frontend practical task.  
+The goal was to closely recreate the provided UI design while ensuring modern UI/UX standards, smooth interactions, and responsiveness across all devices.
+
+The landing page includes a hero section, destination showcases, promotional banners, testimonials, partner logos, call-to-action sections, and a structured footer.  
+The implementation follows clean component-based architecture and best frontend practices.
+
+## Tech Stack
+
+- **Next.js (App Router)** – React framework for production-ready applications  
+- **React** – Component-based UI development  
+- **TypeScript** – Type-safe JavaScript  
+- **Material UI (MUI)** – UI component library and responsive layout system    
+- **HTML, CSS, JavaScript** – Core web technologies  
+- **Netlify** – Deployment and hosting  
 
 ##  Installation
 
-1. **Clone the repository** (or navigate to the project directory):
+1. **Clone the repository** 
 ```bash
 git clone <repository-url>
 cd kanra-travels
 ```
 
-2. **Install dependencies**:
+2. **Install dependencies:**
 ```bash
 npm install
 ```
 This will install all the required dependencies listed in `package.json`.
-
 After installation, you can run the following scripts:
 
-### Development Server
+3. **Start the development server:**
 ```bash
 npm run dev
+```
+4. **Open your browser and visit:**
+```
+http://localhost:3000
 ```
 
 ##  Features
@@ -34,16 +52,6 @@ npm run dev
 - **Testimonials** - Customer reviews and testimonials
 - **CTA Cards** - Call-to-action cards for various services
 - **Footer** - Comprehensive footer with links and newsletter subscription
-
-##  Tech Stack
-
-- **Framework**: [Next.js 16.1.3](https://nextjs.org/) (React 19.2.3)
-- **Language**: TypeScript 5
-- **Styling**: CSS Modules
-- **Icons**: Lucide React
-- **Image Optimization**: Next.js Image Component
-- **Font**: Poppins (Google Fonts)
-
 
 ##  Image Sources
 
